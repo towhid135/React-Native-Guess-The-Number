@@ -1,0 +1,30 @@
+#Functional component: How to use functional component.
+#Alert API: How to generate a popup alert box
+#Custom font using expo-font
+#Custom Icons: Using Ionicons from @expo/vector-icons
+#Apploading component
+#useRef hook: If we initialize something it will remain unchanged utill we change it. Most impressive part 
+is that it does not cause rendering during change of value.
+#useEffect hook: we can unmount the hook by passing an empty array. When the hook is in unmount state it
+runs the function inside of it only once (only during first rendering), after that no matter how many rendering
+occurs it does not run that function again. In mount state it takes an array, and if the value inside of that
+array is changed it runs the funcion inside of it after every rendering.
+#Keyboard API: We can use that api for showing and dissmiss the keyboard.
+#Dimensions API: We can use that api for getting exact height and width of a view (container). point to be noted
+that the height and width only calculated during the app start and it locks there. If the app start in lanscape
+mode then the height and width will get the value of the landscape mode and it does not change if we go to the
+portrait mode from the lanscape. So, the solution is to initialize the height and width by using useState hook
+along with Dimensions.addEventListener.
+#Orientation: In app.js file, the orientation is initialized by portrait. We can set it to landscape mode,
+then it will only work in landscape mode. But if we set it with "default" then the app will change with the
+device orientation.
+#keyboardAvoidingView help to repositon the entire screen by given pixels, so that the input field can be
+shown above the keyboard.
+#AppLoading component: This component helps to run a function at the starting of the app.
+# expo-screen-orientation: only works in expo app
+# Platform API: we can adjust things based on the platform we are running.
+# Platform based component: if we set component file name like component.android.js or
+component.ios.js then react-native will automatically detect the file based on the
+current platform. For this we need to import the file like this 
+"import componentName from 'location/componentName' " here we dont need to add .andriod.js
+# safeAreaView: we need to wrap the main view with the safe area view.

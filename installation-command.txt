@@ -1,0 +1,2 @@
+expo install expo-app-loading (for AppLoading component)
+expo install expo-font (for expo-font)
