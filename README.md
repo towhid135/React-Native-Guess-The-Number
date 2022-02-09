@@ -1,33 +1,17 @@
 # Guess The Number
 
-This application is built with all of the basic functionality of an e-commerce app. I have built this app with the help of React Native and Expo environment. Features of this application are given below:
-* Users can register with a **Gmail**.
-* users can **login**.
-* There is **Auto login** functionality.
-* Users can **Logout**.
-* Authenticated users can **Add, Edit, Delete** any products.
-* Users can see the **list of the available products**.
-* Users can see **details of each product**.
-* Users can **store product to the cart**.
-* Users  **can order** products.
-* Users can see the **list of ordered products**.
+This is a simple number guessing game. Where users choose a number (Maximum Two Digits) and the system guesses the number with some directions from the user. Users need to tell the system that the guessed number is smaller or greater than the inserted (Actual) number. Based on this information and with the help of The binary-search algorithm the system guesses the correct number. If the user tries to miss lead the system then an alert will appear.
 
 ## Objective
 
 The objective of this project is to learn:
-* Managing **Redux Store** (Creating and managing **reducers** and **dispatching actions**).
-* Using **Redux-Thunk** for returning the **async function** from the action creator function.
-* Using different react hooks like: **useState**, **useEffect**, **useLayoutEffect**,**useReducer**, etc.
-* Handling server-side response (Authentication & Storing data) with the help of **Rest API**.
-* Using **Firebase** for **Authentication** and **storing** data.
-* **Sing in**, **SignUp**, **SignOut** mechanism.
-* Using **Async-Storage** for implementing **Auto Login** mechanism.
-* Implementing page refreshing mechanishm.
 * Creating **functional components**.
 * Building reusable **custom components**.
 * Using **custom font**.
+* Using **custom button**.
 * Using **Apploading component**.
-* Using **Activity Indicator**.
+* Using **Alert API**.
+* **Regular-Expressions** for allowing only numbers.
 ## Requirements
 * PC have latest **"Node.js"** installed.
 * PC should have **android studio** (Windows and Linux) or **Xcode** (macOS) installed or Should have an android or ios phone installed with expo app.
