@@ -11,6 +11,8 @@ The objective of this project is to learn:
 * Using **custom button**.
 * Using **Apploading component**.
 * Using **Alert API**.
+* Using **Dimension API** for maintaining the height and width.
+* Using **Scroll View** for showing all the guessed numbers.
 * **Regular-Expressions** for allowing only numbers.
 ## Requirements
 * PC have latest **"Node.js"** installed.
@@ -25,15 +27,10 @@ The objective of this project is to learn:
 
 ## Screenshots
 
-SignUp             |  SignIn          | Products List
+Insert Number             |  Confirm Number          | Alert
 :-------------------------:|:-------------------------:|:-------------------------
-![](https://github.com/towhid135/React-Native-StoreApp/blob/main/screenshots/Signup.jpg)  |  ![](https://github.com/towhid135/React-Native-StoreApp/blob/main/screenshots/Login.jpg) |  ![](https://github.com/towhid135/React-Native-StoreApp/blob/main/screenshots/Product-list.jpg)
+![](https://github.com/towhid135/React-Native-Guess-The-Number/blob/main/ScreenShot/1.jpg)  |  ![](https://github.com/towhid135/React-Native-Guess-The-Number/blob/main/ScreenShot/2.jpg) |  ![](https://github.com/towhid135/React-Native-Guess-The-Number/blob/main/ScreenShot/3.jpg)
 
-Add Product             |  Edit Product          | Delete Product
-:-------------------------:|:-------------------------:|:-------------------------
-![](https://github.com/towhid135/React-Native-StoreApp/blob/main/screenshots/Product-Add.jpg) |  ![](https://github.com/towhid135/React-Native-StoreApp/blob/main/screenshots/Product-Edit.jpg) |  ![](https://github.com/towhid135/React-Native-StoreApp/blob/main/screenshots/Product-Delete.jpg)
-
-
-Product Details           |  Cart          | Orders List |   SignOut
-:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------
-![](https://github.com/towhid135/React-Native-StoreApp/blob/main/screenshots/Product-Details.jpg)  |  ![](https://github.com/towhid135/React-Native-StoreApp/blob/main/screenshots/Cart.jpg) |  ![](https://github.com/towhid135/React-Native-StoreApp/blob/main/screenshots/Orders-List.jpg) | ![](https://github.com/towhid135/React-Native-StoreApp/blob/main/screenshots/Drawer-Nav-LogOut.jpg) 
+List of Guessed Numbers          |  Result  
+:-------------------------:|:-------------------------
+![](https://github.com/towhid135/React-Native-Guess-The-Number/blob/main/ScreenShot/4.jpg) |  ![](https://github.com/towhid135/React-Native-Guess-The-Number/blob/main/ScreenShot/5.jpg)
