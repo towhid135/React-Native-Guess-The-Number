@@ -1,5 +1,5 @@
 # Guess The Number
-
+##### Expo Published Link: https://expo.dev/@towhid135/guess-the-number
 This is a simple number guessing game. Where users choose a number (Maximum Two Digits) and the system guesses the number with some directions from the user. Users need to tell the system that the guessed number is smaller or greater than the inserted (Actual) number. Based on this information and with the help of The binary-search algorithm the system guesses the correct number. If the user tries to miss lead the system then an alert will appear.
 
 ## Objective
